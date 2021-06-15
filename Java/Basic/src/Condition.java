@@ -2,9 +2,9 @@
  * @Author: Liu Yuchen
  * @Date: 2021-06-10 20:04:09
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-10 20:10:30
+ * @LastEditTime: 2021-06-14 19:46:26
  * @Description: 
- * @FilePath: \Basic\src\Condition.java
+ * @FilePath: /Basic/src/Condition.java
  * @GitHub: https://github.com/liuyuchen777
  */
 public class Condition {
@@ -30,13 +30,13 @@ public class Condition {
         int x = 30;
     
         if( x == 10 ){
-            System.out.print("Value of X is 10");
+            System.out.println("Value of X is 10");
         }else if( x == 20 ){
-            System.out.print("Value of X is 20");
+            System.out.println("Value of X is 20");
         }else if( x == 30 ){
-            System.out.print("Value of X is 30");
+            System.out.println("Value of X is 30");
         }else{
-            System.out.print("This is else");
+            System.out.println("This is else");
         }
     }
     
