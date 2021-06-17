@@ -2,9 +2,9 @@
  * @Author: Liu Yuchen
  * @Date: 2021-06-17 19:18:34
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-17 19:38:19
+ * @LastEditTime: 2021-06-17 20:59:39
  * @Description: basic usage of go channel
- * @FilePath: /CodeBase/Golang/concurrency/channel/basic.go
+ * @FilePath: /CodeBase/Golang/concurrency/channel/basicChan.go
  * @GitHub: https://github.com/liuyuchen777
  */
 
@@ -74,11 +74,11 @@ func main() {
 		wg.Add(1)
 		go func(i int) {
 			defer wg.Done()
-			<-begin //1
+			<-begin // block here
 			fmt.Printf("%v has begun\n", i)
 		}(i)
 	}
 	fmt.Println("Unblocking goroutines...")
-	close(begin) //2
+	close(begin) // close channel to send signal
 	wg.Wait()
 }

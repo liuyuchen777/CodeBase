@@ -1,0 +1,18 @@
+Operation   Channel State       Result
+--------------------------------------
+Read        nil                 Block
+            Open and Not Empty  Value
+            Open and Empty      Block
+            Closed              <default Value>, false
+            Write Only          Compile error
+Write       nil                 Block
+            Open and Full       Block
+            Open and Not Full   Write Value
+            Closed              panic
+            Receive Only        Compile error
+Closed      nil                 panic
+            Open and Not Empty  closes channel, reads succeed until channel is drained 
+                                and then reads produce default Value
+            Open and Empty      closes channel, reads produce default Value
+            Closed              panic
+            Receive Only        Compile error
