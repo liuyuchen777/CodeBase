@@ -1,12 +1,13 @@
 /*
  * @Author: Liu Yuchen
- * @Date: 2021-06-10 20:04:09
+ * @Date: 2021-06-15 17:01:05
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-14 19:46:26
+ * @LastEditTime: 2021-06-15 17:01:25
  * @Description: 
- * @FilePath: /Basic/src/Condition.java
+ * @FilePath: /CodeBase/Java/Basic/src/Condition.java
  * @GitHub: https://github.com/liuyuchen777
  */
+
 public class Condition {
     public void basicSwitch() {
         /*

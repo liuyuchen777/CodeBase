@@ -2,9 +2,9 @@
  * @Author: Liu Yuchen
  * @Date: 2021-06-10 19:51:31
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-10 20:02:41
+ * @LastEditTime: 2021-06-15 17:00:32
  * @Description: 
- * @FilePath: \Basic\src\Loop.java
+ * @FilePath: /CodeBase/Java/Basic/src/Loop.java
  * @GitHub: https://github.com/liuyuchen777
  */
 import java.util.ArrayList;
@@ -73,6 +73,15 @@ public class Loop {
         {
             System.out.println(str);
         }
+
+        /**
+         * any array could use forEach
+         * String can use toCharArray() to convert a char array
+         */
+        for (char c : "I am king of the world".toCharArray()) {
+            System.out.print(c + " ");
+        }
+        System.out.println("");
     }
 
     public static void main(String[] args) {
