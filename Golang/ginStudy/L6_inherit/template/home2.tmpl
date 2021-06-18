@@ -1,0 +1,8 @@
+{{/*继承根模板*/}}
+{{template "base.tmpl" .}}
+{{/*实际发现加不加点都行*/}}
+{{/*重新定义块模板*/}}
+{{define "content"}}
+    <h1>This is home page! (inherit)</h1>
+    <h2>Hello {{ . }}!</h2>
+{{end}}

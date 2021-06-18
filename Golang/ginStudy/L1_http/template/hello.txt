@@ -1,0 +1,8 @@
+<h1 style='color.orange'>How are you!</h2>
+<h2>I am LiuYuchen!</h2>
+<button id='b1'>click me</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src='https://n.sinaimg.cn/ent/transform/250/w630h420/20191209/3df3-iknhexh9270759.jpg'
+}
+</script>

@@ -1,0 +1,29 @@
+1. connect to sql server
+mysql --host=localhost --user=lyc --password=lyc7758321321
+!!! after upgrade to WSL2
+mysql -u lyc -h 172.27.0.1 -p
+
+2. create database
+create database name_of_database;
+
+3. show all databases
+show databases;
+
+4. show all table
+show tables;
+
+5. show structure of a table
+describe name_of_table;
+
+6. change to database
+use name_of_database
+
+7. create table
+create tabe name_of_table
+
+8. show record in table
+select * from name_of_table
+
+9. delete database or table
+drop database name_of_database
+drop table name_of_table

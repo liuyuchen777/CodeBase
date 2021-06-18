@@ -1,0 +1,32 @@
+<!--
+ * @Author: Liu Yuchen
+ * @Date: 2021-04-01 09:12:22
+ * @LastEditors: Liu Yuchen
+ * @LastEditTime: 2021-04-01 09:28:27
+ * @Description: Say Something, Motherfuncker
+ * @FilePath: /go/src/goStudy/ginStudy/L13_form/login.html
+ * @GitHub: https://github.com/liuyuchen777
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+    <form action="/login" method="post" novalidate autocomplete="off">
+        <div>
+            <label for="username">username: </label>
+            <input type="text" name="username" id="username">
+        </div>
+        
+        <div>
+            <label for="password">password: </label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>
