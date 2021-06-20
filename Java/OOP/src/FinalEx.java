@@ -66,9 +66,34 @@ final class FinalClass {
     
 // }
 
+class Book {
+    boolean checkOut = false;
+    
+    Book(boolean checkOut) {
+        this.checkOut = checkOut;
+    }
+
+    void checkIn() {
+        checkOut = false;
+    }
+
+    protected void finalize() {
+        // finalize is used to label object to be cleaned, but not necessary be cleaned
+        if (checkOut)
+            System.out.println("Error: checked out");
+        // call base-class finalize function
+        // super.finalize();
+    }
+}
+
 public class FinalEx {
     public static void main(String[] args) {
         System.out.println("-------------final variable-----------");
 
+        Book novel = new Book(true);
+        // proper cleanup
+        novel.checkIn();
+        new Book(true);
+        System.gc(); // call gc to clean garbage
     }
 }

@@ -1,16 +1,52 @@
 import java.util.Arrays;
-
 /*
  * @Author: Liu Yuchen
  * @Date: 2021-06-18 10:21:29
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-18 14:21:28
+ * @LastEditTime: 2021-06-20 11:30:27
  * @Description: 
- * @FilePath: /CodeBase/Java/OOP/src/Initialize.java
+ * @FilePath: /CodeBase/Java/OOP/src/InitializeConstructor.java
  * @GitHub: https://github.com/liuyuchen777
  */
 
-public class Initialize {
+/**
+ * An example for Java constructor use order
+ * 构造函数的调用顺序:
+ * 1. 基类构造器，反复递归，直到最底层的导出类（基类）
+ * 2. 按声明顺序调用成员的初始化方法
+ * 3. 导出类构造器的主体
+*/
+class Bread {
+    Bread() { System.out.println("Bread()"); }
+}
+
+class Cheese {
+    Cheese() { System.out.println("Cheese()"); }
+}
+
+class Meal {
+    Meal() { System.out.println("Meal()"); }
+}
+
+class Lunch extends Meal {
+    Lunch() { System.out.println("Lunch()"); }
+}
+
+class PortalLunch extends Lunch {
+    PortalLunch() { System.out.println("PortalLunch()");}
+}
+
+class SandWich extends PortalLunch {
+    private Bread b = new Bread();
+    private Cheese c = new Cheese();
+    public SandWich() { System.out.println("Sandwich()"); }
+
+    public static void main(String[] args) {
+        SandWich s = new SandWich();
+    }
+}
+
+public class InitializeConstructor {
     /*
         you can direct initialize member value in Java
         which is not allowed in C++
@@ -35,7 +71,7 @@ public class Initialize {
     int intValue2;
     int intValue3;
 
-    Initialize() {
+    InitializeConstructor() {
         /*
             when use constructor to initialize, member variable is first setted default value of type
             and then get value in constructor
@@ -86,14 +122,14 @@ public class Initialize {
     }
     
     public static void main(String[] args) {
-        Initialize it = new Initialize();
+        InitializeConstructor it = new InitializeConstructor();
         System.out.println(Arrays.toString(it.aInt));
         System.out.println(Arrays.toString(it.fInt));
         System.out.println(Arrays.toString(it.bInt));
         System.out.println(it.aInteger[0]);
         System.out.println(Arrays.toString(it.aInteger2));
 
-        Initialize.printArray(new Object[]{1, "lyc", 10.2});
-        Initialize.printArrayNew(1, 10.2, "lyc");
+        InitializeConstructor.printArray(new Object[]{1, "lyc", 10.2});
+        InitializeConstructor.printArrayNew(1, 10.2, "lyc");
     }
 }
