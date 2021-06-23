@@ -2,7 +2,7 @@
  * @Author: Liu Yuchen
  * @Date: 2021-06-20 11:33:50
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-20 12:11:39
+ * @LastEditTime: 2021-06-20 12:25:10
  * @Description: 
  * @FilePath: /CodeBase/Java/OOP/src/Interface.java
  * @GitHub: https://github.com/liuyuchen777
@@ -79,14 +79,38 @@ class Hero extends ActionCharacter
 
 /**
  * interface extend:
- * 
+ * 借口可以多重继承，见interface Vampire
  */
 
 interface Monster {
-    void mence();
+    void menace();
 }
 
+interface DangerousMonster extends Monster {
+    void destroy();
+}
 
+class DragonZilla implements DangerousMonster {
+    public void menace() {}
+    public void destroy() {}
+}
+
+interface Lethal {
+    void kill();
+}
+
+interface Vampire extends DangerousMonster, Lethal {
+    void drinkBoold();
+}
+
+class VeryBadVampire implements Vampire {
+    public void menace() {}
+    public void destroy() {}
+    public void kill() {}
+    public void drinkBoold() {}
+}
+
+// 组合借口时命名冲突，不能有相同输出类型但不同返回值的两个方法
 
 public class Interface {
     public static void t(CanFight x) { x.fight(); }
