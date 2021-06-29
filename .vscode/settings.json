@@ -1,7 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "Java/Type/src",
         "Java/OOP/src",
+        "Java/IO/src",
+        "Java/Generics/src",
         "Java/Basic/src",
-        "Java/Type/src"
+        "Java/Annotation/src",
+        "Java/Stream/src"
     ]
 }

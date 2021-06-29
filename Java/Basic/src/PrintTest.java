@@ -2,14 +2,13 @@
  * @Author: Liu Yuchen
  * @Date: 2021-06-09 23:30:59
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-10 19:51:03
+ * @LastEditTime: 2021-06-24 22:03:24
  * @Description: print function example in Java
- * @FilePath: \Basic\src\Print.java
+ * @FilePath: /CodeBase/Java/Basic/src/PrintTest.java
  * @GitHub: https://github.com/liuyuchen777
  */
-import java.util.Date;
 
-public class Print {    
+public class PrintTest {    
     public void simplePrint() {
         // print a line
         System.out.println("Hello, World!");
@@ -100,7 +99,7 @@ public class Print {
         D -> year/month/day
         F -> year-month-day
         */
-        Date date = new Date();
+        java.util.Date date = new java.util.Date();
         long dataL = date.getTime();
         System.out.printf("%1$ty-%1$tm-%1$td; %2$ty-%2$tm-%2$td%n", date, dataL);
         System.out.printf("%1$tY-%1$tB-%1$td; %2$tY-%2$tb-%2$td%n", date, dataL);
@@ -134,7 +133,7 @@ public class Print {
     }
 
     public static void main(String[] args) {
-        Print print = new Print();
+        PrintTest print = new PrintTest();
         print.simplePrint();
         print.formatPrint();
     }
