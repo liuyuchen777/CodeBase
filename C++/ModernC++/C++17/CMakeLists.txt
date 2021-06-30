@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 2.8)
 
-project(googletest_demo)
+project(C++17_demo)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++11")
 # set(CMAKE_C_COMPILER "/usr/bin/gcc")
 # set(CMAKE_CXX_COMPILER "/usr/bin/clang")
@@ -10,7 +10,7 @@ find_package(Threads REQUIRED) # find package of multiple thread test
 
 include_directories(${GTEST_INCLUDE_DIRS}) # add gtest dir
 
-add_executable(${PROJECT_NAME} fun.cc fun.h hello_test.cc) # add executable file
+add_executable(${PROJECT_NAME} ) # add executable file
 
 target_link_libraries(${PROJECT_NAME} ${GTEST_BOTH_LIBRARIES}) # add link library
 target_link_libraries(${PROJECT_NAME} ${CMAKE_THREAD_LIBS_INIT})

@@ -7,5 +7,8 @@
         "Java/Basic/src",
         "Java/Annotation/src",
         "Java/Stream/src"
-    ]
+    ],
+    "files.associations": {
+        "string_view": "cpp"
+    }
 }

@@ -2,7 +2,7 @@
  * @Author: Liu Yuchen
  * @Date: 2021-06-29 21:01:40
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-29 21:06:12
+ * @LastEditTime: 2021-06-30 11:29:15
  * @Description: 
  * @FilePath: /CodeBase/Java/Stream/src/ParallelStream.java
  * @GitHub: https://github.com/liuyuchen777
@@ -19,5 +19,8 @@ public class ParallelStream {
                         .filter(string -> string.isEmpty())
                         .count();
         System.out.println("count: " + count);
+
+        System.out.println("--------Parallel Reduce--------");
+        
     }
 }
