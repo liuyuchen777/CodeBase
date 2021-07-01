@@ -14,7 +14,11 @@ set<T> ordered hash set
 map<Key, Value> hash map
 deque<T> double-ended queue -> list和vector的折中方案
 
-2. advance
+Also have unordered containers 
+unordered_set
+unordered_map
+
+2. containers adaptors
 stack<T> -> LIFO
 queue<T> -> FIFO
 priority_queue<T> -> multiple type of element have multiple priority

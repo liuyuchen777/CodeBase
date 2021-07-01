@@ -2,7 +2,7 @@
  * @Author: Liu Yuchen
  * @Date: 2021-07-01 00:06:25
  * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-07-01 10:23:03
+ * @LastEditTime: 2021-07-01 11:31:18
  * @Description: 
  * @FilePath: /CodeBase/C++/STL/vector_demo.cc
  * @GitHub: https://github.com/liuyuchen777
@@ -63,6 +63,13 @@ void vector_initialization() {
         fill(vec.begin(), vec.end(), val);
         
         cout << "1.6: " << vec << endl;
+    }
+    // 1.7 =
+    {
+        vector<int> v1{1, 2, 3, 4, 5};
+        vector<int> v2;
+        v2 = v1;
+        cout << "1.7: " << v2 << endl;
     }
 }
 
@@ -182,8 +189,9 @@ void vector_modifier() {
      * earse(it)
      * swap()
      * clear() - remove all elements in a vector
-     * emplace()
-     * emplace_back()
+     * emplace(it, val)
+     * emplace_back(val)
+     * emplace_front(val)
      */
     // Assign vector
     vector<int> v;
