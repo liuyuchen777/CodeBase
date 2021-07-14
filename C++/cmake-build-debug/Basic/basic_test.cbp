@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="basic_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Basic\;CMake Files\ModernC++\;CMake Files\ModernC++\C++11\;CMake Files\STL\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_world">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/Basic"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 hello_world"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hello_world/fast">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/hello_world" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/Basic"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 hello_world/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/Basic/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/Basic/hello_world.cpp">
+			<Option target="hello_world"/>
+		</Unit>
+		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/Basic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Basic\"/>
+		</Unit>
+		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ModernC++\C++11\"/>
+		</Unit>
+		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/STL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\STL\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
