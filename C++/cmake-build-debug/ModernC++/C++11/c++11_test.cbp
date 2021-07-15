@@ -61,6 +61,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="template_default_type">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/template_default_type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 template_default_type"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template_default_type/fast">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/template_default_type" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 template_default_type/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="new_data_type">
 				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/new_data_type" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
@@ -149,6 +193,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="smart_pointer">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/smart_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 smart_pointer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="smart_pointer/fast">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/smart_pointer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 smart_pointer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="constexpr">
 				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/constexpr" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
@@ -188,6 +276,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 constexpr/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lambda_fun">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/lambda_fun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 lambda_fun"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lambda_fun/fast">
+				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/lambda_fun" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 lambda_fun/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
@@ -237,50 +369,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="template_default_type">
-				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/template_default_type" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 template_default_type"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="template_default_type/fast">
-				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/template_default_type" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 template_default_type/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="tuple">
 				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/tuple" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
@@ -320,50 +408,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 tuple/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lambda_fun">
-				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/lambda_fun" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 lambda_fun"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="lambda_fun/fast">
-				<Option output="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/lambda_fun" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="clang"/>
-				<Compiler>
-					<Add directory="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 lambda_fun/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/ModernC++/C++11/Makefile&quot;  VERBOSE=1 clean"/>
@@ -432,6 +476,9 @@
 		</Unit>
 		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11/new_data_type.cpp">
 			<Option target="new_data_type"/>
+		</Unit>
+		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11/smart_pointer.cpp">
+			<Option target="smart_pointer"/>
 		</Unit>
 		<Unit filename="/Users/yuchenliu/Local_Lab/CodeBase/C++/ModernC++/C++11/template_default_type.cpp">
 			<Option target="template_default_type"/>

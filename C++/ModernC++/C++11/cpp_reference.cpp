@@ -2,7 +2,23 @@
 // Created by Yuchen Liu on 2021/07/14.
 //
 
-#include <iostream>
+#include "c++11_test.h"
+
+class MoveDemo {
+public:
+    MoveDemo() : num(new int(0)) {
+        std::cout << "!!!construct!!!" << std::endl;
+    }
+    MoveDemo(const MoveDemo &d) : num(new int(*d.num)) {
+        std::cout << "!!!copy construct!!!" << std::endl;
+    }
+    // use for std::move
+    MoveDemo(MoveDemo &&d)  noexcept : num(d.num) {
+        std::cout << "!!!move construct!!!" << std::endl;
+    }
+public:
+    int *num;
+};
 
 int main() {
     /*
@@ -48,5 +64,19 @@ int main() {
         int &&quux = foo * 1;
         // int &garoly = foo++; // error, ++return left value
         int &&waldo = foo--;
+    }
+    /*
+     * move (base on right value reference)
+     * C++11 标准中借助右值引用可以为指定类添加移动构造函数，这样当使用该类的右值对象（可以理解为临时对象）
+     * 初始化同类对象时，编译器会优先选择移动构造函数。
+     */
+    {
+        MoveDemo demo;
+        std::cout << "demo2: " << std::endl;
+        MoveDemo demo2 = demo;
+        std::cout << "demo3: " << std::endl;
+        MoveDemo demo3 = std::move(demo);
+        // not a good practice to write like following, demo.num is moved
+        std::cout << *demo.num << endl;
     }
 }

@@ -23,3 +23,5 @@ add_executable(new_data_type new_data_type.cpp)
 add_executable(constexpr constexpr.cpp)
 
 add_executable(cpp_reference cpp_reference.cpp)
+
+add_executable(smart_pointer smart_pointer.cpp)

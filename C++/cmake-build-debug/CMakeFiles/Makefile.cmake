@@ -67,13 +67,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "Basic/CMakeFiles/hello_world.dir/DependInfo.cmake"
   "ModernC++/C++11/CMakeFiles/cpp_reference.dir/DependInfo.cmake"
+  "ModernC++/C++11/CMakeFiles/template_default_type.dir/DependInfo.cmake"
   "ModernC++/C++11/CMakeFiles/new_data_type.dir/DependInfo.cmake"
   "ModernC++/C++11/CMakeFiles/list_initialize.dir/DependInfo.cmake"
+  "ModernC++/C++11/CMakeFiles/smart_pointer.dir/DependInfo.cmake"
   "ModernC++/C++11/CMakeFiles/constexpr.dir/DependInfo.cmake"
-  "ModernC++/C++11/CMakeFiles/type_deduce.dir/DependInfo.cmake"
-  "ModernC++/C++11/CMakeFiles/template_default_type.dir/DependInfo.cmake"
-  "ModernC++/C++11/CMakeFiles/tuple.dir/DependInfo.cmake"
   "ModernC++/C++11/CMakeFiles/lambda_fun.dir/DependInfo.cmake"
+  "ModernC++/C++11/CMakeFiles/type_deduce.dir/DependInfo.cmake"
+  "ModernC++/C++11/CMakeFiles/tuple.dir/DependInfo.cmake"
   "ModernC++/C++11/CMakeFiles/using_alias.dir/DependInfo.cmake"
   "STL/CMakeFiles/stl_demo.dir/DependInfo.cmake"
   )

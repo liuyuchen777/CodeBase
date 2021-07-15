@@ -145,6 +145,21 @@ cpp_reference/fast:
 .PHONY : cpp_reference/fast
 
 # Convenience name for target.
+ModernC++/C++11/CMakeFiles/template_default_type.dir/rule:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
+.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
+
+# Convenience name for target.
+template_default_type: ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
+
+.PHONY : template_default_type
+
+# fast build rule for target.
+template_default_type/fast:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/build
+.PHONY : template_default_type/fast
+
+# Convenience name for target.
 ModernC++/C++11/CMakeFiles/new_data_type.dir/rule:
 	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/new_data_type.dir/rule
 .PHONY : ModernC++/C++11/CMakeFiles/new_data_type.dir/rule
@@ -175,6 +190,21 @@ list_initialize/fast:
 .PHONY : list_initialize/fast
 
 # Convenience name for target.
+ModernC++/C++11/CMakeFiles/smart_pointer.dir/rule:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/smart_pointer.dir/rule
+.PHONY : ModernC++/C++11/CMakeFiles/smart_pointer.dir/rule
+
+# Convenience name for target.
+smart_pointer: ModernC++/C++11/CMakeFiles/smart_pointer.dir/rule
+
+.PHONY : smart_pointer
+
+# fast build rule for target.
+smart_pointer/fast:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/build
+.PHONY : smart_pointer/fast
+
+# Convenience name for target.
 ModernC++/C++11/CMakeFiles/constexpr.dir/rule:
 	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/constexpr.dir/rule
 .PHONY : ModernC++/C++11/CMakeFiles/constexpr.dir/rule
@@ -188,6 +218,21 @@ constexpr: ModernC++/C++11/CMakeFiles/constexpr.dir/rule
 constexpr/fast:
 	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/constexpr.dir/build.make ModernC++/C++11/CMakeFiles/constexpr.dir/build
 .PHONY : constexpr/fast
+
+# Convenience name for target.
+ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule
+.PHONY : ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule
+
+# Convenience name for target.
+lambda_fun: ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule
+
+.PHONY : lambda_fun
+
+# fast build rule for target.
+lambda_fun/fast:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/lambda_fun.dir/build.make ModernC++/C++11/CMakeFiles/lambda_fun.dir/build
+.PHONY : lambda_fun/fast
 
 # Convenience name for target.
 ModernC++/C++11/CMakeFiles/type_deduce.dir/rule:
@@ -205,21 +250,6 @@ type_deduce/fast:
 .PHONY : type_deduce/fast
 
 # Convenience name for target.
-ModernC++/C++11/CMakeFiles/template_default_type.dir/rule:
-	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
-.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
-
-# Convenience name for target.
-template_default_type: ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
-
-.PHONY : template_default_type
-
-# fast build rule for target.
-template_default_type/fast:
-	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/build
-.PHONY : template_default_type/fast
-
-# Convenience name for target.
 ModernC++/C++11/CMakeFiles/tuple.dir/rule:
 	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/tuple.dir/rule
 .PHONY : ModernC++/C++11/CMakeFiles/tuple.dir/rule
@@ -233,21 +263,6 @@ tuple: ModernC++/C++11/CMakeFiles/tuple.dir/rule
 tuple/fast:
 	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/build
 .PHONY : tuple/fast
-
-# Convenience name for target.
-ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule:
-	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule
-.PHONY : ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule
-
-# Convenience name for target.
-lambda_fun: ModernC++/C++11/CMakeFiles/lambda_fun.dir/rule
-
-.PHONY : lambda_fun
-
-# fast build rule for target.
-lambda_fun/fast:
-	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/lambda_fun.dir/build.make ModernC++/C++11/CMakeFiles/lambda_fun.dir/build
-.PHONY : lambda_fun/fast
 
 # Convenience name for target.
 ModernC++/C++11/CMakeFiles/using_alias.dir/rule:
@@ -399,6 +414,33 @@ new_data_type.cpp.s:
 	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/new_data_type.dir/build.make ModernC++/C++11/CMakeFiles/new_data_type.dir/new_data_type.cpp.s
 .PHONY : new_data_type.cpp.s
 
+smart_pointer.o: smart_pointer.cpp.o
+
+.PHONY : smart_pointer.o
+
+# target to build an object file
+smart_pointer.cpp.o:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/smart_pointer.cpp.o
+.PHONY : smart_pointer.cpp.o
+
+smart_pointer.i: smart_pointer.cpp.i
+
+.PHONY : smart_pointer.i
+
+# target to preprocess a source file
+smart_pointer.cpp.i:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/smart_pointer.cpp.i
+.PHONY : smart_pointer.cpp.i
+
+smart_pointer.s: smart_pointer.cpp.s
+
+.PHONY : smart_pointer.s
+
+# target to generate assembly for a file
+smart_pointer.cpp.s:
+	cd /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug && $(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/smart_pointer.cpp.s
+.PHONY : smart_pointer.cpp.s
+
 template_default_type.o: template_default_type.cpp.o
 
 .PHONY : template_default_type.o
@@ -520,6 +562,7 @@ help:
 	@echo "... lambda_fun"
 	@echo "... list_initialize"
 	@echo "... new_data_type"
+	@echo "... smart_pointer"
 	@echo "... template_default_type"
 	@echo "... tuple"
 	@echo "... type_deduce"
@@ -539,6 +582,9 @@ help:
 	@echo "... new_data_type.o"
 	@echo "... new_data_type.i"
 	@echo "... new_data_type.s"
+	@echo "... smart_pointer.o"
+	@echo "... smart_pointer.i"
+	@echo "... smart_pointer.s"
 	@echo "... template_default_type.o"
 	@echo "... template_default_type.i"
 	@echo "... template_default_type.s"

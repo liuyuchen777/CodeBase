@@ -115,13 +115,14 @@ Basic/clean: Basic/CMakeFiles/hello_world.dir/clean
 
 # Recursive "all" directory target.
 ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/cpp_reference.dir/all
+ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/template_default_type.dir/all
 ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/new_data_type.dir/all
 ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/list_initialize.dir/all
+ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/smart_pointer.dir/all
 ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/constexpr.dir/all
-ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/type_deduce.dir/all
-ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/template_default_type.dir/all
-ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/tuple.dir/all
 ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/lambda_fun.dir/all
+ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/type_deduce.dir/all
+ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/tuple.dir/all
 ModernC++/C++11/all: ModernC++/C++11/CMakeFiles/using_alias.dir/all
 
 .PHONY : ModernC++/C++11/all
@@ -133,13 +134,14 @@ ModernC++/C++11/preinstall:
 
 # Recursive "clean" directory target.
 ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/cpp_reference.dir/clean
+ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/template_default_type.dir/clean
 ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/new_data_type.dir/clean
 ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/list_initialize.dir/clean
+ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/smart_pointer.dir/clean
 ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/constexpr.dir/clean
-ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/type_deduce.dir/clean
-ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/template_default_type.dir/clean
-ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/tuple.dir/clean
 ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/lambda_fun.dir/clean
+ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/type_deduce.dir/clean
+ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/tuple.dir/clean
 ModernC++/C++11/clean: ModernC++/C++11/CMakeFiles/using_alias.dir/clean
 
 .PHONY : ModernC++/C++11/clean
@@ -217,6 +219,33 @@ ModernC++/C++11/CMakeFiles/cpp_reference.dir/clean:
 .PHONY : ModernC++/C++11/CMakeFiles/cpp_reference.dir/clean
 
 #=============================================================================
+# Target rules for target ModernC++/C++11/CMakeFiles/template_default_type.dir
+
+# All Build rule for target.
+ModernC++/C++11/CMakeFiles/template_default_type.dir/all:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/depend
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target template_default_type"
+.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/all
+
+# Build rule for subdir invocation for target.
+ModernC++/C++11/CMakeFiles/template_default_type.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/template_default_type.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 0
+.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
+
+# Convenience name for target.
+template_default_type: ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
+
+.PHONY : template_default_type
+
+# clean rule for target.
+ModernC++/C++11/CMakeFiles/template_default_type.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/clean
+.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/clean
+
+#=============================================================================
 # Target rules for target ModernC++/C++11/CMakeFiles/new_data_type.dir
 
 # All Build rule for target.
@@ -271,6 +300,33 @@ ModernC++/C++11/CMakeFiles/list_initialize.dir/clean:
 .PHONY : ModernC++/C++11/CMakeFiles/list_initialize.dir/clean
 
 #=============================================================================
+# Target rules for target ModernC++/C++11/CMakeFiles/smart_pointer.dir
+
+# All Build rule for target.
+ModernC++/C++11/CMakeFiles/smart_pointer.dir/all:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/depend
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target smart_pointer"
+.PHONY : ModernC++/C++11/CMakeFiles/smart_pointer.dir/all
+
+# Build rule for subdir invocation for target.
+ModernC++/C++11/CMakeFiles/smart_pointer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/smart_pointer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 0
+.PHONY : ModernC++/C++11/CMakeFiles/smart_pointer.dir/rule
+
+# Convenience name for target.
+smart_pointer: ModernC++/C++11/CMakeFiles/smart_pointer.dir/rule
+
+.PHONY : smart_pointer
+
+# clean rule for target.
+ModernC++/C++11/CMakeFiles/smart_pointer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/clean
+.PHONY : ModernC++/C++11/CMakeFiles/smart_pointer.dir/clean
+
+#=============================================================================
 # Target rules for target ModernC++/C++11/CMakeFiles/constexpr.dir
 
 # All Build rule for target.
@@ -296,87 +352,6 @@ constexpr: ModernC++/C++11/CMakeFiles/constexpr.dir/rule
 ModernC++/C++11/CMakeFiles/constexpr.dir/clean:
 	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/constexpr.dir/build.make ModernC++/C++11/CMakeFiles/constexpr.dir/clean
 .PHONY : ModernC++/C++11/CMakeFiles/constexpr.dir/clean
-
-#=============================================================================
-# Target rules for target ModernC++/C++11/CMakeFiles/type_deduce.dir
-
-# All Build rule for target.
-ModernC++/C++11/CMakeFiles/type_deduce.dir/all:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/type_deduce.dir/build.make ModernC++/C++11/CMakeFiles/type_deduce.dir/depend
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/type_deduce.dir/build.make ModernC++/C++11/CMakeFiles/type_deduce.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target type_deduce"
-.PHONY : ModernC++/C++11/CMakeFiles/type_deduce.dir/all
-
-# Build rule for subdir invocation for target.
-ModernC++/C++11/CMakeFiles/type_deduce.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/type_deduce.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 0
-.PHONY : ModernC++/C++11/CMakeFiles/type_deduce.dir/rule
-
-# Convenience name for target.
-type_deduce: ModernC++/C++11/CMakeFiles/type_deduce.dir/rule
-
-.PHONY : type_deduce
-
-# clean rule for target.
-ModernC++/C++11/CMakeFiles/type_deduce.dir/clean:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/type_deduce.dir/build.make ModernC++/C++11/CMakeFiles/type_deduce.dir/clean
-.PHONY : ModernC++/C++11/CMakeFiles/type_deduce.dir/clean
-
-#=============================================================================
-# Target rules for target ModernC++/C++11/CMakeFiles/template_default_type.dir
-
-# All Build rule for target.
-ModernC++/C++11/CMakeFiles/template_default_type.dir/all:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/depend
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target template_default_type"
-.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/all
-
-# Build rule for subdir invocation for target.
-ModernC++/C++11/CMakeFiles/template_default_type.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/template_default_type.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 0
-.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
-
-# Convenience name for target.
-template_default_type: ModernC++/C++11/CMakeFiles/template_default_type.dir/rule
-
-.PHONY : template_default_type
-
-# clean rule for target.
-ModernC++/C++11/CMakeFiles/template_default_type.dir/clean:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/clean
-.PHONY : ModernC++/C++11/CMakeFiles/template_default_type.dir/clean
-
-#=============================================================================
-# Target rules for target ModernC++/C++11/CMakeFiles/tuple.dir
-
-# All Build rule for target.
-ModernC++/C++11/CMakeFiles/tuple.dir/all:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/depend
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target tuple"
-.PHONY : ModernC++/C++11/CMakeFiles/tuple.dir/all
-
-# Build rule for subdir invocation for target.
-ModernC++/C++11/CMakeFiles/tuple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/tuple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 0
-.PHONY : ModernC++/C++11/CMakeFiles/tuple.dir/rule
-
-# Convenience name for target.
-tuple: ModernC++/C++11/CMakeFiles/tuple.dir/rule
-
-.PHONY : tuple
-
-# clean rule for target.
-ModernC++/C++11/CMakeFiles/tuple.dir/clean:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/clean
-.PHONY : ModernC++/C++11/CMakeFiles/tuple.dir/clean
 
 #=============================================================================
 # Target rules for target ModernC++/C++11/CMakeFiles/lambda_fun.dir
@@ -406,13 +381,67 @@ ModernC++/C++11/CMakeFiles/lambda_fun.dir/clean:
 .PHONY : ModernC++/C++11/CMakeFiles/lambda_fun.dir/clean
 
 #=============================================================================
+# Target rules for target ModernC++/C++11/CMakeFiles/type_deduce.dir
+
+# All Build rule for target.
+ModernC++/C++11/CMakeFiles/type_deduce.dir/all:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/type_deduce.dir/build.make ModernC++/C++11/CMakeFiles/type_deduce.dir/depend
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/type_deduce.dir/build.make ModernC++/C++11/CMakeFiles/type_deduce.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target type_deduce"
+.PHONY : ModernC++/C++11/CMakeFiles/type_deduce.dir/all
+
+# Build rule for subdir invocation for target.
+ModernC++/C++11/CMakeFiles/type_deduce.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/type_deduce.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 0
+.PHONY : ModernC++/C++11/CMakeFiles/type_deduce.dir/rule
+
+# Convenience name for target.
+type_deduce: ModernC++/C++11/CMakeFiles/type_deduce.dir/rule
+
+.PHONY : type_deduce
+
+# clean rule for target.
+ModernC++/C++11/CMakeFiles/type_deduce.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/type_deduce.dir/build.make ModernC++/C++11/CMakeFiles/type_deduce.dir/clean
+.PHONY : ModernC++/C++11/CMakeFiles/type_deduce.dir/clean
+
+#=============================================================================
+# Target rules for target ModernC++/C++11/CMakeFiles/tuple.dir
+
+# All Build rule for target.
+ModernC++/C++11/CMakeFiles/tuple.dir/all:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/depend
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target tuple"
+.PHONY : ModernC++/C++11/CMakeFiles/tuple.dir/all
+
+# Build rule for subdir invocation for target.
+ModernC++/C++11/CMakeFiles/tuple.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ModernC++/C++11/CMakeFiles/tuple.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles 0
+.PHONY : ModernC++/C++11/CMakeFiles/tuple.dir/rule
+
+# Convenience name for target.
+tuple: ModernC++/C++11/CMakeFiles/tuple.dir/rule
+
+.PHONY : tuple
+
+# clean rule for target.
+ModernC++/C++11/CMakeFiles/tuple.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/clean
+.PHONY : ModernC++/C++11/CMakeFiles/tuple.dir/clean
+
+#=============================================================================
 # Target rules for target ModernC++/C++11/CMakeFiles/using_alias.dir
 
 # All Build rule for target.
 ModernC++/C++11/CMakeFiles/using_alias.dir/all:
 	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/using_alias.dir/build.make ModernC++/C++11/CMakeFiles/using_alias.dir/depend
 	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/using_alias.dir/build.make ModernC++/C++11/CMakeFiles/using_alias.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target using_alias"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target using_alias"
 .PHONY : ModernC++/C++11/CMakeFiles/using_alias.dir/all
 
 # Build rule for subdir invocation for target.
@@ -439,7 +468,7 @@ ModernC++/C++11/CMakeFiles/using_alias.dir/clean:
 STL/CMakeFiles/stl_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f STL/CMakeFiles/stl_demo.dir/build.make STL/CMakeFiles/stl_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f STL/CMakeFiles/stl_demo.dir/build.make STL/CMakeFiles/stl_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17,18,19 "Built target stl_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yuchenliu/Local_Lab/CodeBase/C++/cmake-build-debug/CMakeFiles --progress-num=15,16,17,18,19,20,21 "Built target stl_demo"
 .PHONY : STL/CMakeFiles/stl_demo.dir/all
 
 # Build rule for subdir invocation for target.

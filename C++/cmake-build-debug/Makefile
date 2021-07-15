@@ -156,6 +156,19 @@ cpp_reference/fast:
 .PHONY : cpp_reference/fast
 
 #=============================================================================
+# Target rules for targets named template_default_type
+
+# Build rule for target.
+template_default_type: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 template_default_type
+.PHONY : template_default_type
+
+# fast build rule for target.
+template_default_type/fast:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/build
+.PHONY : template_default_type/fast
+
+#=============================================================================
 # Target rules for targets named new_data_type
 
 # Build rule for target.
@@ -182,6 +195,19 @@ list_initialize/fast:
 .PHONY : list_initialize/fast
 
 #=============================================================================
+# Target rules for targets named smart_pointer
+
+# Build rule for target.
+smart_pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 smart_pointer
+.PHONY : smart_pointer
+
+# fast build rule for target.
+smart_pointer/fast:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/smart_pointer.dir/build.make ModernC++/C++11/CMakeFiles/smart_pointer.dir/build
+.PHONY : smart_pointer/fast
+
+#=============================================================================
 # Target rules for targets named constexpr
 
 # Build rule for target.
@@ -193,6 +219,19 @@ constexpr: cmake_check_build_system
 constexpr/fast:
 	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/constexpr.dir/build.make ModernC++/C++11/CMakeFiles/constexpr.dir/build
 .PHONY : constexpr/fast
+
+#=============================================================================
+# Target rules for targets named lambda_fun
+
+# Build rule for target.
+lambda_fun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lambda_fun
+.PHONY : lambda_fun
+
+# fast build rule for target.
+lambda_fun/fast:
+	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/lambda_fun.dir/build.make ModernC++/C++11/CMakeFiles/lambda_fun.dir/build
+.PHONY : lambda_fun/fast
 
 #=============================================================================
 # Target rules for targets named type_deduce
@@ -208,19 +247,6 @@ type_deduce/fast:
 .PHONY : type_deduce/fast
 
 #=============================================================================
-# Target rules for targets named template_default_type
-
-# Build rule for target.
-template_default_type: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 template_default_type
-.PHONY : template_default_type
-
-# fast build rule for target.
-template_default_type/fast:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/template_default_type.dir/build.make ModernC++/C++11/CMakeFiles/template_default_type.dir/build
-.PHONY : template_default_type/fast
-
-#=============================================================================
 # Target rules for targets named tuple
 
 # Build rule for target.
@@ -232,19 +258,6 @@ tuple: cmake_check_build_system
 tuple/fast:
 	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/tuple.dir/build.make ModernC++/C++11/CMakeFiles/tuple.dir/build
 .PHONY : tuple/fast
-
-#=============================================================================
-# Target rules for targets named lambda_fun
-
-# Build rule for target.
-lambda_fun: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lambda_fun
-.PHONY : lambda_fun
-
-# fast build rule for target.
-lambda_fun/fast:
-	$(MAKE) $(MAKESILENT) -f ModernC++/C++11/CMakeFiles/lambda_fun.dir/build.make ModernC++/C++11/CMakeFiles/lambda_fun.dir/build
-.PHONY : lambda_fun/fast
 
 #=============================================================================
 # Target rules for targets named using_alias
@@ -286,6 +299,7 @@ help:
 	@echo "... lambda_fun"
 	@echo "... list_initialize"
 	@echo "... new_data_type"
+	@echo "... smart_pointer"
 	@echo "... stl_demo"
 	@echo "... template_default_type"
 	@echo "... tuple"
