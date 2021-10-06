@@ -4,6 +4,5 @@ build
 .DS_Store
 .idea
 cmake-build-debug
-interview
-basic
 test
+out
