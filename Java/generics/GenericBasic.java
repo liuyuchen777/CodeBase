@@ -7,6 +7,11 @@
  * @FilePath: /CodeBase/Java/Generics/src/GenericBasic.java
  * @GitHub: https://github.com/liuyuchen777
  */
+
+/**
+ * template
+ */
+
 public class GenericBasic {
     // generic method
     public static <E> void printArray(E[] inputArray) {

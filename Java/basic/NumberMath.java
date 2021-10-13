@@ -47,7 +47,7 @@ public class NumberMath {
         /*
         xxx.valueOf() -> convert other type to xxx number type
         */  
-        Integer z =Integer.valueOf(9);
+        Integer z = Integer.valueOf(9);
         Double c = Double.valueOf(5);
         Float a = Float.valueOf("80");              
 
@@ -77,10 +77,7 @@ public class NumberMath {
     }
 
     public void processNumber() {
-        /*
-        round or ceil a number
-        */
-        
+        // round or ceil a number
     }
 
     public void compareNumber() {
@@ -109,8 +106,6 @@ public class NumberMath {
         System.out.println(x.equals(z));
         System.out.println(x.equals(a));
     }
-
-    
 
     public static void main(String[] args) {
         NumberMath nm = new NumberMath();
