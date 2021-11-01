@@ -1,12 +1,4 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-19 08:56:05
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-19 09:09:12
- * @Description: 
- * @FilePath: /CodeBase/Java/OOP/src/Combination.java
- * @GitHub: https://github.com/liuyuchen777
- */
+
 class WaterSource {
     private String s;
     WaterSource() {

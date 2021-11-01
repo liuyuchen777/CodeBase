@@ -1,18 +1,10 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-10 19:51:31
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-15 17:00:32
- * @Description: 
- * @FilePath: /CodeBase/Java/Basic/src/Loop.java
- * @GitHub: https://github.com/liuyuchen777
- */
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 public class Loop {
-    public void whileLopp() {
+    public void whileLoop() {
         int x = 10;
 
         System.out.println("--------while loop---------");
@@ -86,7 +78,7 @@ public class Loop {
 
     public static void main(String[] args) {
         Loop loop = new Loop();
-        loop.whileLopp();
+        loop.whileLoop();
         loop.doWhileLoop();
         loop.forLoop();
     }

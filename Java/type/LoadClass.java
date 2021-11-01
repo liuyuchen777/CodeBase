@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-23 23:29:39
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-23 23:39:26
- * @Description: 
- * @FilePath: /CodeBase/Java/Type/src/LoadClass.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 /**
  * 每一个类都有一个Class对象，存储Class相关信息

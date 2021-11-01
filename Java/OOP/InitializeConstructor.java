@@ -1,13 +1,4 @@
 import java.util.Arrays;
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-18 10:21:29
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-20 11:30:27
- * @Description: 
- * @FilePath: /CodeBase/Java/OOP/src/InitializeConstructor.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 /**
  * An example for Java constructor use order

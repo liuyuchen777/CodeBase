@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-19 09:09:23
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-19 09:22:11
- * @Description: standard extend example
- * @FilePath: /CodeBase/Java/OOP/src/Extend.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 class Cleanser {
     private String s = "Cleanser ";

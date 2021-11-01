@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-13 18:29:37
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-20 11:41:04
- * @Description: 
- * @FilePath: /CodeBase/Java/OOP/src/Abstract.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 /**
  * 抽象类可以被视作一种纯接口

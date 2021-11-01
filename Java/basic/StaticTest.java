@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-15 11:07:47
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-15 14:43:44
- * @Description:
- * @FilePath: /CodeBase/Java/Basic/src/StaticTest.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 public class StaticTest {
     /** 

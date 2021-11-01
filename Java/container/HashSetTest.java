@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-12 22:00:02
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-13 17:57:39
- * @Description: example of Java hash set
- * @FilePath: \Container\src\HashSetTest.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 import java.util.HashSet;
 

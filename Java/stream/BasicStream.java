@@ -6,16 +6,6 @@ import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-29 20:47:36
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-30 11:31:08
- * @Description:
- * @FilePath: /CodeBase/Java/Stream/src/BasicStream.java
- * @GitHub: https://github.com/liuyuchen777
- */
-
 public class BasicStream {
     public static void main(String[] args) {
         System.out.println("------------Basic Stream-----------");

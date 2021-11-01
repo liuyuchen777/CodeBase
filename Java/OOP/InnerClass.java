@@ -1,16 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-20 12:29:05
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-23 20:35:40
- * @Description: anything about inner class
- * @FilePath: /CodeBase/Java/OOP/src/InnerClass.java
- * @GitHub: https://github.com/liuyuchen777
- */
-
-/**
- * Inner class could be used to realize interator
- */
 
 interface Selector {
     boolean end();

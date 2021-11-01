@@ -1,12 +1,4 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-12 09:20:17
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-13 17:46:55
- * @Description: example for Java container: ArrayList
- * @FilePath: \Container\src\ArrayListTest.java
- * @GitHub: https://github.com/liuyuchen777
- */
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Collections;

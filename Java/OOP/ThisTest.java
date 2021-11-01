@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-18 09:31:38
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-18 09:36:31
- * @Description: 
- * @FilePath: /CodeBase/Java/OOP/src/ThisTest.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 class Flower {
     int pealCount = 0;

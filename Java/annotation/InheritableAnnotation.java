@@ -1,15 +1,5 @@
 import java.lang.annotation.*;
 
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-28 07:58:29
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-28 08:04:07
- * @Description: 
- * @FilePath: /CodeBase/Java/Annotation/src/InheritableAnnotation.java
- * @GitHub: https://github.com/liuyuchen777
- */
-
 /**
  * 这个自定注解表示类是否能够继承
  * @Documented

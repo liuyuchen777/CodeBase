@@ -1,13 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-29 21:07:03
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-29 21:10:21
- * @Description: 
- * @FilePath: /CodeBase/Java/Stream/src/Java8Tester.java
- * @GitHub: https://github.com/liuyuchen777
- */
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
@@ -16,7 +6,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 public class Java8Tester {
-    public static void main(String args[]){
+    public static void main(String[] args){
         System.out.println("------------使用 Java 7----------");
             
         // 计算空字符串
@@ -145,8 +135,7 @@ public class Java8Tester {
         List<Integer> squaresList = new ArrayList<Integer>();
             
         for(Integer number: numbers){
-            Integer square = Integer.valueOf(number.intValue() 
-                                * number.intValue());
+            Integer square = number * number;
                 
             if(!squaresList.contains(square)){
                 squaresList.add(square);
@@ -162,8 +151,8 @@ public class Java8Tester {
             
             Integer number = numbers.get(i);
                 
-            if(number.intValue() > max){
-                max = number.intValue();
+            if(number > max){
+                max = number;
             }
         }
         return max;
@@ -175,8 +164,8 @@ public class Java8Tester {
         for(int i=1;i < numbers.size();i++){
             Integer number = numbers.get(i);
             
-            if(number.intValue() < min){
-                min = number.intValue();
+            if(number < min){
+                min = number;
             }
         }
         return min;

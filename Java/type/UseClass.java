@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-23 23:42:05
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-23 23:51:18
- * @Description: 
- * @FilePath: /CodeBase/Java/Type/src/UseClass.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 interface HasBatteries {}
 interface WaterProof {}

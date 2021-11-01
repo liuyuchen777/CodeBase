@@ -1,12 +1,4 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-13 18:16:02
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-24 21:53:36
- * @Description: example of Java OOP basic
- * @FilePath: /CodeBase/Java/OOP/src/Basic.java
- * @GitHub: https://github.com/liuyuchen777
- */
+
 class Animal {
     // java don't support extend from multiple class
     private String name;

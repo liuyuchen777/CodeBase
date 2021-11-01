@@ -1,12 +1,4 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-26 20:42:42
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-28 07:56:40
- * @Description: 
- * @FilePath: /CodeBase/Java/Annotation/src/BasicAnnotation.java
- * @GitHub: https://github.com/liuyuchen777
- */
+
 import java.util.*;
 
 public class BasicAnnotation {

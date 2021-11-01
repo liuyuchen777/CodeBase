@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-24 17:50:07
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-24 21:38:52
- * @Description: 
- * @FilePath: /CodeBase/Java/Type/src/Reflect.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 import java.lang.reflect.*;
 

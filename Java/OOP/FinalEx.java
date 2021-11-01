@@ -1,21 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-19 09:35:02
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-19 10:04:01
- * @Description: 
- * @FilePath: /CodeBase/Java/OOP/src/FinalEx.java
- * @GitHub: https://github.com/liuyuchen777
- */
-
-/*
-    final could be used at variable, method and class
-    final + varible: constant (static/global, or unchanged class variable)
-    final + method/function: method can't be override
-    final + class: class can't be extended
-*/
-
-import java.util.*;
 
 class Value {
     int i;

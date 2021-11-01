@@ -1,12 +1,3 @@
-/**
- * @Author: Liu Yuchen
- * @Date: 2021-06-20 10:23:33
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-20 10:35:03
- * @Description: 
- * @FilePath: /CodeBase/Java/Polymorphism/src/Upcasting.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 /** 
     前期绑定：在编译时就确定

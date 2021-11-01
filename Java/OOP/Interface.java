@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-20 11:33:50
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-20 12:25:10
- * @Description: 
- * @FilePath: /CodeBase/Java/OOP/src/Interface.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 /**
  * 一个接口中的所有方法都是抽象的

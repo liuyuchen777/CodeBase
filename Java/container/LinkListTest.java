@@ -1,12 +1,3 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-12 22:00:11
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-13 17:52:31
- * @Description: 
- * @FilePath: \Container\src\LinkListTest.java
- * @GitHub: https://github.com/liuyuchen777
- */
 
 import java.util.LinkedList;
 
