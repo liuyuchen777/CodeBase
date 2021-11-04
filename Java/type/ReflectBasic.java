@@ -14,7 +14,7 @@ class Apple {
     }
 }
 
-public class Reflect {
+public class ReflectBasic {
     public static void main(String[] args) {
         System.out.println("-------------General Way to Use Class----------");
         Apple apple = new Apple();
@@ -25,7 +25,7 @@ public class Reflect {
         try {
             // 1. 获取反射中的Class对象
             // 1.1. 使用class.forName(...)静态方法
-            Class clz = Class.forName("Apple");
+            Class clz = Class.forName("AppleItem");
             // 1.2. 使用.class方法，只适合在编译器就知道的Class
             /*
             Class clz = String.cls;

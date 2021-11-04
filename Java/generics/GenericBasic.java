@@ -1,34 +1,62 @@
-/*
- * @Author: Liu Yuchen
- * @Date: 2021-06-24 21:46:33
- * @LastEditors: Liu Yuchen
- * @LastEditTime: 2021-06-24 21:50:20
- * @Description: 
- * @FilePath: /CodeBase/Java/Generics/src/GenericBasic.java
- * @GitHub: https://github.com/liuyuchen777
- */
+// tuple
+class TwoTuple<A, B> {
+    public final A first;
+    public final B second;
+    public TwoTuple(A a, B b) {
+        first = a;
+        second = b;
+    }
+    public String toString() {
+        return "(" + first + ", " + second + ")";
+    }
+}
 
-/**
- * template
- */
+// stack
+class LinkedStack<T> {
+    private static class Node<U> {
+        U item;
+        Node<U> next;
+        Node() { item = null; next = null; }
+        Node(U item, Node<U> next) {
+            this.item = item;
+            this.next = next;
+        }
+        boolean end() { return item == null && next == null; }
+    }
+
+    private Node<T> top = new Node<>();
+
+    public void push(T item) {
+        top = new Node<T>(item, top);
+    }
+
+    public T pop() {
+        T result = top.item;
+        if (!top.end())
+            top = top.next;
+        return result;
+    }
+}
 
 public class GenericBasic {
-    // generic method
-    public static <E> void printArray(E[] inputArray) {
-        for (E element : inputArray) {
-            System.out.print(element + " ");
-        }
-        System.out.println();
+    static TwoTuple<String, Integer> f() {
+        return new TwoTuple<>("hi", 47);
     }
 
     public static void main(String[] args) {
-        System.out.println("--------------Generic Method------------");
-        Integer[] intArray = {1, 2, 3, 4, 5};
-        Double[] doubleArray = {1., 2., 3., 4., 5.};
-        Character[] charArray = {'H', 'E', 'L', 'L', 'O'};
+        System.out.println("--------------Tuple------------");
+        TwoTuple<String, Integer> tmp = f();
+        System.out.println(tmp);
+        // tmp.first = "World"; // compile error
 
-        printArray(intArray);
-        printArray(doubleArray);
-        printArray(charArray);
+        System.out.println("--------------Stack------------");
+        LinkedStack<String> lss = new LinkedStack<>();
+        for (String s : "To be or not to be".split(" ")) {
+            lss.push(s);
+        }
+        String s;
+        while ((s = lss.pop()) != null) {
+            System.out.println(s);
+        }
     }
 }

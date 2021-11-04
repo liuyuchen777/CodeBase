@@ -25,6 +25,5 @@ public class HashSetTest {
     public static void main(String[] args) {
         HashSetTest hs = new HashSetTest();
         hs.basicOperation();
-        
     }
 }
