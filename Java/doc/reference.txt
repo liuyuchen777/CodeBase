@@ -1,0 +1,7 @@
+Thinking in Java 4th code:
+https://github.com/gauravojha/tij4-maven
+
+Java Concurrency in Practice code:
+https://jcip.net/listings.html
+
+https://github.com/benelog/java-concurrency
